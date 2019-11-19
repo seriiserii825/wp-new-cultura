@@ -1037,3 +1037,41 @@ footer .adresone, footer .adrestwo {
 	border-bottom: 1px solid green;
 	opacity: 1;
 }
+.files__title {
+	margin-bottom: 20px;
+}
+
+.file {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 20px;
+	color: #333;
+	background: #eee;
+	box-shadow: 0 2px 8px rgba(0,0,0,.1);
+	transform: scale(1);
+	transition: all .3s ease;
+}
+.file:active,
+.file:visited {
+	color: #333;
+}
+.file:hover {
+	transform: scale(1.02);
+	text-decoration: none;
+	color: #333;
+}
+.file__title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.file__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 120px;
+}
+.file__icon img {
+	width: 60px;
+}
